@@ -34,7 +34,7 @@ var pokazfotki=function(){
     var przewiniencie=$(window).scrollTop();
     
     if(przewiniencie>=300){
-        $("#fotograf").fadeIn(4000);
+        $("#fotograf").fadeIn(3000);
     
     }
 };
