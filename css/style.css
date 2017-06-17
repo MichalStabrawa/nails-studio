@@ -1,28 +1,31 @@
-        /* General Styles - Start */
+        /* General Styles - Start *************************************************************************************************/
         
         * {
             box-sizing: border-box;
         }
         
-        body {background-color: #4C4C4C
-            margin: 0;
+        body {
+            background-color: #4C4C4C margin: 0;
             font-family: 'Lato', sans-serif;
         }
-/* H Style span       */
+        /* H Style span       */
+        
         span {
-            color:#E8AF0C;
+            color: #E8AF0C;
             font-weight: 400;
         }
-
-h1{
-    color: grey;
-}
         
-        h2 {font-family: 'Permanent Marker', cursive;
+        h1 {
+            color: grey;
+        }
+        
+        h2 {
+            font-family: 'Permanent Marker', cursive;
             text-align: center;
             color: grey;
         }
-    /*Style Klasa col-1-2*/    
+        /*Style Klasa col-1-2*************************************************************************************************************************************************************/
+        
         .col-1-2 {
             width: 50%;
             float: left;
@@ -37,21 +40,22 @@ h1{
         p {
             line-height: 1.5em;
         }
-
-        /*moje menu glowne */
+        
+        .btn-primary {
+            background-color: #E8AF0C;
+            border-color: transparent;
+        }
+        /*moje menu glowne *************************************************************************************************************************************************************8*/
         
         #main-nav {
             position: fixed;
             background-color: transparent;
             width: 100%;
             z-index: 10;
-            
-}
-     
+        }
         
-        #main-nav ul {text-align: center;
-           
-            
+        #main-nav ul {
+            text-align: center;
         }
         
         #main-nav ul .menu-item {
@@ -59,7 +63,8 @@ h1{
             padding: 25px;
         }
         
-        #main-nav ul  a {font-size: 1.2em;
+        #main-nav ul a {
+            font-size: 1.2em;
             color: #E8AF0C;
             text-decoration: none;
             transition: all .3s;
@@ -67,32 +72,29 @@ h1{
         
         #main-nav ul .menu-item a:hover {
             color: #291f1a;
-            
-            
         }
-.navbar-default {
-    border: 0px;
-}
-
-#main-nav.scroll {
-    background-color: #fff;
-}
-
-#main-nav.scroll ul .menu-item a {
-    color: #1ac056;
-}
-
-#main-nav.scroll ul .menu-item a:hover {
-    
-}
+        
+        .navbar-default {
+            border: 0px;
+        }
+        
+        #main-nav.scroll {
+            background-color: #fff;
+        }
+        
+        #main-nav.scroll ul .menu-item a {
+            color: #1ac056;
+        }
+        
+        #main-nav.scroll ul .menu-item a:hover {}
         /*Menu glowne stop*/
         /* Naglowek Start */
         
-        #main-header {width: 100%;
+        #main-header {
+            width: 100%;
             height: 100vh;
             background-image: url(../img/manicure-1105373_1920.jpg);
             background-position: center;
-           
             background-size: cover;
             position: relative;
         }
@@ -108,7 +110,8 @@ h1{
             font-family: 'Roboto', sans-serif;
         }
         
-        #main-header .header-caption h1 {font-family: 'Handlee', cursive;
+        #main-header .header-caption h1 {
+            font-family: 'Handlee', cursive;
             font-size: 5em;
             font-weight: 300;
         }
@@ -117,18 +120,27 @@ h1{
             font-size: 4em;
             font-weight: 300;
         }
-        /* Naglowek stop */
+        /* Naglowek stop ******************************************************************************************************************************************/
         
         h2 {
             text-align: center;
         }
-        /* About O mnie */
+        /* About Section********************************************************************************************************************** */
+        
+        figure img {
+            width: 100%;
+        }
+        
+        .col-md-4 .col-md-6 {
+            display: inline-block;
+        }
 
- figure img {
+/*Foto Section*/
+
+#foto{
+    background-image:linear-gradient(rgba(255, 215, 0, 0.1), rgba(255, 215, 0, 0.1)),url(../img/pexels-photo1.jpg);
     width: 100%;
-   
-}
-
-.col-md-4 .col-md-6{
-    display: inline-block;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
 }
