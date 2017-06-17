@@ -19,10 +19,11 @@
             color: grey;
         }
         
-        h2 {
+        h2 {margin-top: 20px;
             font-family: 'Permanent Marker', cursive;
             text-align: center;
             color: grey;
+            text-shadow: 1px 1px 2px  #E8AF0C;
         }
         /*Style Klasa col-1-2*************************************************************************************************************************************************************/
         
@@ -45,6 +46,24 @@
             background-color: #E8AF0C;
             border-color: transparent;
         }
+
+.btn-primary:hover{
+    background-color: grey;
+    border-color: transparent;
+}
+
+.btn-primary:focus{
+     background-color: grey;
+    border-color: transparent;
+}
+
+a {
+    color: grey;
+}
+.fa {
+    color: grey;
+   margin: 5px;
+}
         /*moje menu glowne *************************************************************************************************************************************************************8*/
         
         #main-nav {
@@ -101,7 +120,7 @@
         
         #main-header .header-caption {
             position: absolute;
-            top: 50%;
+            top: 46%;
             transform: translateY(-50%);
             left: 0;
             right: 0;
@@ -114,6 +133,7 @@
             font-family: 'Handlee', cursive;
             font-size: 5em;
             font-weight: 300;
+            margin-bottom: 63px;
         }
         
         #main-header .header-caption h2 {
