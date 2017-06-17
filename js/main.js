@@ -29,3 +29,16 @@ var menuHeight = $('#main-nav').height();
 });
 
 
+/*Scroll fotograf*/
+var pokazfotki=function(){
+    var przewiniencie=$(window).scrollTop();
+    
+    if(przewiniencie>=300){
+        $("#fotograf").fadeIn(4000);
+    
+    }
+};
+
+$(window).scroll(function(){
+    pokazfotki();
+});
