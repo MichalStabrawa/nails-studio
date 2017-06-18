@@ -160,6 +160,10 @@ a {
             width: 100%;
             margin-top: 20px;
             margin-bottom: 20px;
+              border-left: 4px inset grey;
+    border-top: 4px inset grey;
+    border-bottom: 4px inset #E8AF0C;
+    border-right: 4px inset #E8AF0C;
         }
         
         .col-md-4 .col-md-6 {
@@ -215,5 +219,16 @@ a {
     margin-top: 40px;
 }
    
+/*TEAM**********************************************/
+#team figure {
+    text-align: center;
+}
+#team img{
+    width: 50%;
+      border-left: 4px inset grey;
+    border-top: 4px inset grey;
+    border-bottom: 4px inset #E8AF0C;
+    border-right: 4px inset #E8AF0C;
+}
 
 
