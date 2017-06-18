@@ -42,3 +42,8 @@ var pokazfotki=function(){
 $(window).scroll(function(){
     pokazfotki();
 });
+
+
+
+
+
