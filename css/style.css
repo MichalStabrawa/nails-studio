@@ -152,6 +152,12 @@ a {
 #social-header .col-md-6 {
     text-align: center;
 }
+
+#cytat {font-style: italic;
+    text-align: center;
+    color:gold;
+    background-image: url(../img/the-background-1304387_1920.png);
+}
         /* About Section********************************************************************************************************************** */
 #fotograf{
     display: none;
