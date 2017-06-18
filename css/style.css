@@ -237,4 +237,21 @@ a {
     border-right: 4px inset #E8AF0C;
 }
 
+#team figcaption {
+    text-align: center;
+}
+
+
+
+/*Social Footer*************************************************************/
+
+#social-footer{
+    background-image: url(../img/the-background-1304387_1920.png);
+}
+
+#social-footer .fa:hover {
+    color: gold;
+    transition: 0,5s;
+}
+
 
