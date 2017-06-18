@@ -10,7 +10,7 @@
         }
         /* H Style span       */
         
-        span {
+        span {font-family: 'Handlee', cursive;
             color: #E8AF0C;
             font-weight: 400;
         }
@@ -245,13 +245,18 @@ a {
 
 /*Social Footer*************************************************************/
 
-#social-footer{
+#social-footer{text-align: center;
     background-image: url(../img/the-background-1304387_1920.png);
 }
 
 #social-footer .fa:hover {
     color: gold;
     transition: 0,5s;
+}
+
+#social-footer h4{
+    color: grey;
+   
 }
 
 
