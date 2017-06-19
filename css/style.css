@@ -10,7 +10,8 @@
         }
         /* H Style span       */
         
-        span {font-family: 'Handlee', cursive;
+        span {
+            font-family: 'Handlee', cursive;
             color: #E8AF0C;
             font-weight: 400;
         }
@@ -23,7 +24,7 @@
             font-family: 'Permanent Marker', cursive;
             text-align: center;
             color: grey;
-            text-shadow: 1px 1px 2px  #E8AF0C;
+            text-shadow: 1px 1px 2px #E8AF0C;
         }
         /*Style Klasa col-1-2*************************************************************************************************************************************************************/
         
@@ -38,7 +39,8 @@
             padding: 40px 0;
         }
         
-        p {font-size: 18px;
+        p {
+            font-size: 18px;
             line-height: 1.5em;
         }
         
@@ -46,24 +48,25 @@
             background-color: #E8AF0C;
             border-color: transparent;
         }
-
-.btn-primary:hover{
-    background-color: grey;
-    border-color: transparent;
-}
-
-.btn-primary:focus{
-     background-color: grey;
-    border-color: transparent;
-}
-
-a {
-    color: grey;
-}
-.fa {
-    color: grey;
-   margin: 5px;
-}
+        
+        .btn-primary:hover {
+            background-color: grey;
+            border-color: transparent;
+        }
+        
+        .btn-primary:focus {
+            background-color: grey;
+            border-color: transparent;
+        }
+        
+        a {
+            color: grey;
+        }
+        
+        .fa {
+            color: grey;
+            margin: 5px;
+        }
         /*moje menu glowne *************************************************************************************************************************************************************8*/
         
         #main-nav {
@@ -145,118 +148,107 @@ a {
         h2 {
             text-align: center;
         }
-
-
-/*Social Header**************************************************************************88*/
-
-#social-header .col-md-6 {
-    text-align: center;
-}
-
-#cytat {font-style: italic;
-    text-align: center;
-    color:gold;
-    background-image: url(../img/the-background-1304387_1920.png);
-}
+        /*Social Header**************************************************************************88*/
+        
+        #social-header .col-md-6 {
+            text-align: center;
+        }
+        
+        #cytat {
+            font-style: italic;
+            text-align: center;
+            color: gold;
+            background-image: url(../img/the-background-1304387_1920.png);
+        }
         /* About Section********************************************************************************************************************** */
-#fotograf{
-    display: none;
-}
+        
+        #fotograf {
+            display: none;
+        }
+        
         figure img {
             width: 100%;
             margin-top: 20px;
             margin-bottom: 20px;
-              border-left: 4px inset grey;
-    border-top: 4px inset grey;
-    border-bottom: 4px inset #E8AF0C;
-    border-right: 4px inset #E8AF0C;
+            border-left: 4px inset grey;
+            border-top: 4px inset grey;
+            border-bottom: 4px inset #E8AF0C;
+            border-right: 4px inset #E8AF0C;
         }
         
         .col-md-4 .col-md-6 {
             display: inline-block;
         }
-
-/*Ofert Section*/
-
-#ofert {background-image: url(../img/the-background-1304387_1920.png);
-    background-color:#e3e3e3;
-    color: #E8AF0C;
-    background-position: center;
-    background-size: cover;
-}
-
-#ofert h3{
-    text-shadow: 1px 1px 1px grey;
-}
-
-#ofert .col-md-4 figure {
-    width: 360px
-    height: 244px;
-    border-left: 4px inset grey;
-    border-top: 4px inset grey;
-    border-bottom: 4px inset #E8AF0C;
-    border-right: 4px inset #E8AF0C;
-   overflow: hidden;
-    text-align: center;
-    
-}
-
-
-#ofert .col-md-4 figure img  {margin: 0px;
-  
-   
-    transition: 0.5s;
- 
-  
-   
-}
-
-#ofert .col-md-4 figure img:hover{
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-
-
-#ofert .row figcaption {
-    text-align: center;
-}
-
-#ofert .row p {
-    margin-top: 40px;
-}
-   
-/*TEAM**********************************************/
-#team figure {
-    text-align: center;
-}
-#team img{
-    width: 50%;
-      border-left: 4px inset grey;
-    border-top: 4px inset grey;
-    border-bottom: 4px inset #E8AF0C;
-    border-right: 4px inset #E8AF0C;
-}
-
-#team figcaption {
-    text-align: center;
-}
-
-
-
-/*Social Footer*************************************************************/
-
-#social-footer{text-align: center;
-    background-image: url(../img/the-background-1304387_1920.png);
-}
-
-#social-footer .fa:hover {
-    color: gold;
-    transition: 0,5s;
-}
-
-#social-footer h4{
-    color: grey;
-   
-}
-
-
+        /*Ofert Section*/
+        
+        #ofert {
+            background-image: url(../img/the-background-1304387_1920.png);
+            background-color: #e3e3e3;
+            color: #E8AF0C;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #ofert h3 {
+            text-shadow: 1px 1px 1px grey;
+        }
+        
+        #ofert .col-md-4 figure {
+            width: 360px height: 244px;
+            border-left: 4px inset grey;
+            border-top: 4px inset grey;
+            border-bottom: 4px inset #E8AF0C;
+            border-right: 4px inset #E8AF0C;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        #ofert .col-md-4 figure img {
+            margin: 0px;
+            transition: 0.5s;
+        }
+        
+        #ofert .col-md-4 figure img:hover {
+            transform: scale(1.2);
+            transition: 0.5s;
+        }
+        
+        #ofert .row figcaption {
+            text-align: center;
+        }
+        
+        #ofert .row p {
+            margin-top: 40px;
+        }
+        /*TEAM**********************************************/
+        
+        #team figure {
+            text-align: center;
+        }
+        
+        #team img {
+            width: 50%;
+            border-left: 4px inset grey;
+            border-top: 4px inset grey;
+            border-bottom: 4px inset #E8AF0C;
+            border-right: 4px inset #E8AF0C;
+        }
+        
+        #team figcaption {
+            text-align: center;
+        }
+        /*Social Footer*************************************************************/
+        
+        #social-footer {
+            text-align: center;
+            background-image: url(../img/the-background-1304387_1920.png);
+        }
+        
+        #social-footer .fa:hover {
+            color: gold;
+            transition: 0, 5s;
+        }
+        
+        #social-footer h4 {
+            color: grey;
+        }
